@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Photography Website</title>
+    
+
+    <!--------------------------------- css ------------------------------------------->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--------------------------------- swiper-css ------------------------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-------------------------------- icons ------------------------------------------------>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+     <!-------------------------------- favicon------------------------------------------------>
+    <link rel="shortcut icon" href="assets/img/Ellipse 12.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- -----------------------------NavBar----------------------------------------------- -->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo"><img src="assets/img/Ellipse 12.png"></a>
+            <ul class="nav__links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibition">Exhibition</a></li>
+            </ul>
+
+            <ul class="nav__socials">
+                <li><a href="www.instagram.com"><i class='bx bxl-instagram bx-sm'></i></a></li>
+                <li><a href="www.twitter.com"><i class='bx bxl-twitter bx-sm'></i></a></li>
+                <li><a href="www.facebook.com"><i class='bx bxl-facebook bx-sm'></i></a></li>
+            </ul>
+
+            <button class="nav__toggle-btn" id="nav__toggle-open"><i class='bx bx-menu'></i></button>
+            <button class="nav__toggle-btn" id="nav__toggle-close"><i class='bx bx-x'></i></button>
+        </div>
+    </nav>
+
+    <!-- ---------------------------------Header---------------------------------------------->
+     <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <div class="header-img-bg"></div>
+                <div class="header-img-lg">
+                    <img src="assets/img/p10.jpg" alt="Header img">
+                </div>
+
+                <div class="header-img-sm">
+                    <img src="assets/img/p10.jpg" alt="Header img">
+                </div>
+            </div>
+
+            <div class="header__right">
+                <h1>See the beauty of the world through my lens</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magnam, praesentium, id vitae cum officiis assumenda quae quod alias necessitatibus deserunt eum debitis nesciunt.
+                </p>
+                <a href="mailto:manasvi.shetty@somaiya.edu" class="header_btn-md">Let's Talk</a>
+            </div>
+        </div>
+     </header>
+
+     <a href="mailto:manasvi.shetty@somaiya.edu" class="contact__btn header__btn">
+        <i class='bx bx-chat'></i>
+     </a>
+
+   <!-- ----------------------------------Gallery-------------------------------------------->
+      <section id="gallery">
+        <div class="container gallery__container swiper mySwiper">
+            <div class="gallery__head">
+                <h1 class="gallery__title">My Gallery</h1>                
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, minima iusto cumque excepturi, aperiam quas dolorum, ad pariatur nemo eos voluptates eveniet aut quibusdam!
+            </p>
+
+            <div class="swiper-wrapper">
+                <article class="swiper-slide">
+                    <img src="assets/img/p4.jpg" alt="">
+                </article>
+                <article class="swiper-slide">
+                    <img src="assets/img/p11.jpg" alt="">
+                </article>
+                <article class="swiper-slide">
+                    <img src="assets/img/p12.jpg" alt="">
+                </article>
+                <article class="swiper-slide">
+                    <img src="assets/img/p13.jpg" alt="">
+                </article>
+                <article class="swiper-slide">
+                    <img src="assets/img/p14.jpg" alt="">
+                </article>
+                <article class="swiper-slide">
+                    <img src="assets/img/p18.jpg" alt="">
+                </article>
+                
+            </div>
+             <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+    <!-- ----------------------------------Footer-------------------------------------------->
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__head">
+                <h1 class="footer__title">Get in Touch</h1>
+                <a href="mailto:manasvi.shetty@somaiya.edu" class="footer__btn"><i class='bx bx-chevron-right'></i></a>
+            </div>
+            <ul class="footer__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibition">Exhibitions</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!--------------------------------- swiper-js ------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-------------------------------------- js --------------------------------------------->
+    <script src="assets/js/main.js"></script>
+
+  
+
+</body>
+</html>
