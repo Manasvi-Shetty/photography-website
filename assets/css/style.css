@@ -402,13 +402,14 @@ header{
 
 .exhibition__head p{
     width: 45rem;
+    font-family: var(--body-font);
 }
 
 .exhibition__gallery{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 5rem;
-    gap: 3rem;
+    gap: 3rem; 
 }
 
 .exhibition__gallery article{
